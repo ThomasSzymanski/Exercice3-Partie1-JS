@@ -7,7 +7,12 @@
 <body>
     <script>
     	var name = prompt('Veuillez écrire votre prénom :');
-		alert('Bonjour, ' + name + ' !');
+    	if(name){
+    		alert('Bonjour, ' + name + ' !');
+    	}
+    	else{
+    		alert('Vous n\'avez rien saisi');
+    	}
     </script>
 </body>
 </html>
